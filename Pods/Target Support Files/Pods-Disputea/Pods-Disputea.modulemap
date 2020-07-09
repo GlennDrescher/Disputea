@@ -1,0 +1,6 @@
+framework module Pods_Disputea {
+  umbrella header "Pods-Disputea-umbrella.h"
+
+  export *
+  module * { export * }
+}
