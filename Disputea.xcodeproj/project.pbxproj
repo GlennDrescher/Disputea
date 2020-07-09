@@ -13,10 +13,10 @@
 		1E54D2F924B76B7600DD7EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54D2F824B76B7600DD7EC0 /* ViewController.swift */; };
 		1E54D2FC24B76B7600DD7EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E54D2FA24B76B7600DD7EC0 /* Main.storyboard */; };
 		1E54D2FF24B76B7600DD7EC0 /* Disputea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E54D2FD24B76B7600DD7EC0 /* Disputea.xcdatamodeld */; };
-		1E54D30124B76B7800DD7EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E54D30024B76B7800DD7EC0 /* Assets.xcassets */; };
 		1E54D30424B76B7800DD7EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E54D30224B76B7800DD7EC0 /* LaunchScreen.storyboard */; };
 		1E54D33024B76D1D00DD7EC0 /* iOS_App_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54D32F24B76D1D00DD7EC0 /* iOS_App_UITests.swift */; };
 		1E54D33E24B76D6800DD7EC0 /* iOS_App_UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54D33D24B76D6800DD7EC0 /* iOS_App_UnitTests.swift */; };
+		1E71309F24B775D600474682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E71309E24B775D600474682 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		1E54D2F824B76B7600DD7EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E54D2FB24B76B7600DD7EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E54D2FE24B76B7600DD7EC0 /* Disputea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Disputea.xcdatamodel; sourceTree = "<group>"; };
-		1E54D30024B76B7800DD7EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E54D30324B76B7800DD7EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E54D30524B76B7800DD7EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E54D32D24B76D1D00DD7EC0 /* iOS-App_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-App_UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +51,7 @@
 		1E54D33B24B76D6800DD7EC0 /* iOS-App_UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-App_UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E54D33D24B76D6800DD7EC0 /* iOS_App_UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_App_UnitTests.swift; sourceTree = "<group>"; };
 		1E54D33F24B76D6800DD7EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E71309E24B775D600474682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		6304546BBFFAFBBBB7A1CFE8 /* Pods-Disputea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disputea.debug.xcconfig"; path = "Target Support Files/Pods-Disputea/Pods-Disputea.debug.xcconfig"; sourceTree = "<group>"; };
 		6D9264A3E20203346ED8AB78 /* Pods-Disputea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disputea.release.xcconfig"; path = "Target Support Files/Pods-Disputea/Pods-Disputea.release.xcconfig"; sourceTree = "<group>"; };
 		C124AE30B5613567A95CC3F1 /* Pods_Disputea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Disputea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				1E54D30224B76B7800DD7EC0 /* LaunchScreen.storyboard */,
-				1E54D30024B76B7800DD7EC0 /* Assets.xcassets */,
+				1E71309E24B775D600474682 /* Assets.xcassets */,
 				1E54D30524B76B7800DD7EC0 /* Info.plist */,
 			);
 			path = SupportingFiles;
@@ -310,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E54D30424B76B7800DD7EC0 /* LaunchScreen.storyboard in Resources */,
-				1E54D30124B76B7800DD7EC0 /* Assets.xcassets in Resources */,
+				1E71309F24B775D600474682 /* Assets.xcassets in Resources */,
 				1E54D2FC24B76B7600DD7EC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,7 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBVK276RNH;
-				INFOPLIST_FILE = "iOS-App/Info.plist";
+				INFOPLIST_FILE = "iOS-App/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -576,7 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBVK276RNH;
-				INFOPLIST_FILE = "iOS-App/Info.plist";
+				INFOPLIST_FILE = "iOS-App/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
