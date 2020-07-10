@@ -8,8 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, Storyboarded {
+    weak var coordinator: LaunchCoordinator?
+    
+    
+    @IBAction func Login(_ sender: Any) {
+        coordinator?.login()
+    }
+    
+    @IBAction func ChatroomList(_ sender: Any) {
+        coordinator?.ChatroomList()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

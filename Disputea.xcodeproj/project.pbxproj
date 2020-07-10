@@ -17,6 +17,16 @@
 		1E54D33024B76D1D00DD7EC0 /* iOS_App_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54D32F24B76D1D00DD7EC0 /* iOS_App_UITests.swift */; };
 		1E54D33E24B76D6800DD7EC0 /* iOS_App_UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54D33D24B76D6800DD7EC0 /* iOS_App_UnitTests.swift */; };
 		1E71309F24B775D600474682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E71309E24B775D600474682 /* Assets.xcassets */; };
+		1EC8666D24B8A301006272ED /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC8666C24B8A301006272ED /* Login.swift */; };
+		1EC8666F24B8A324006272ED /* ChatroomsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC8666E24B8A324006272ED /* ChatroomsList.swift */; };
+		1EC8667124B8A364006272ED /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC8667024B8A364006272ED /* Login.storyboard */; };
+		1EC8667324B8A3A4006272ED /* ChatroomsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC8667224B8A3A4006272ED /* ChatroomsList.storyboard */; };
+		1EDF23C124B78B7500E86896 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF23C024B78B7500E86896 /* Coordinator.swift */; };
+		1EDF23C224B78B7500E86896 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF23C024B78B7500E86896 /* Coordinator.swift */; };
+		1EDF23C324B78B7500E86896 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF23C024B78B7500E86896 /* Coordinator.swift */; };
+		1EDF23C524B7916F00E86896 /* LaunchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF23C424B7916F00E86896 /* LaunchCoordinator.swift */; };
+		1EDF23C624B7916F00E86896 /* LaunchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF23C424B7916F00E86896 /* LaunchCoordinator.swift */; };
+		1EDF23C724B7916F00E86896 /* LaunchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF23C424B7916F00E86896 /* LaunchCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,12 @@
 		1E54D33D24B76D6800DD7EC0 /* iOS_App_UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_App_UnitTests.swift; sourceTree = "<group>"; };
 		1E54D33F24B76D6800DD7EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E71309E24B775D600474682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		1EC8666C24B8A301006272ED /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1EC8666E24B8A324006272ED /* ChatroomsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomsList.swift; sourceTree = "<group>"; };
+		1EC8667024B8A364006272ED /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		1EC8667224B8A3A4006272ED /* ChatroomsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatroomsList.storyboard; sourceTree = "<group>"; };
+		1EDF23C024B78B7500E86896 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1EDF23C424B7916F00E86896 /* LaunchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCoordinator.swift; sourceTree = "<group>"; };
 		6304546BBFFAFBBBB7A1CFE8 /* Pods-Disputea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disputea.debug.xcconfig"; path = "Target Support Files/Pods-Disputea/Pods-Disputea.debug.xcconfig"; sourceTree = "<group>"; };
 		6D9264A3E20203346ED8AB78 /* Pods-Disputea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disputea.release.xcconfig"; path = "Target Support Files/Pods-Disputea/Pods-Disputea.release.xcconfig"; sourceTree = "<group>"; };
 		C124AE30B5613567A95CC3F1 /* Pods_Disputea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Disputea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,11 +132,12 @@
 		1E54D2F324B76B7600DD7EC0 /* iOS-App */ = {
 			isa = PBXGroup;
 			children = (
-				1E71309D24B772B400474682 /* Extensions */,
-				1E71309C24B7725B00474682 /* ViewControllers */,
+				1EDF23BB24B78A5F00E86896 /* Navigation */,
+				1E71309C24B7725B00474682 /* Controllers */,
 				1E71309A24B7722200474682 /* Views */,
-				1E71309924B7721100474682 /* SupportingFiles */,
 				1E71309B24B7723F00474682 /* Models */,
+				1E71309924B7721100474682 /* SupportingFiles */,
+				1E71309D24B772B400474682 /* Extensions */,
 			);
 			path = "iOS-App";
 			sourceTree = "<group>";
@@ -155,7 +172,6 @@
 		1E71309924B7721100474682 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				1E54D30224B76B7800DD7EC0 /* LaunchScreen.storyboard */,
 				1E71309E24B775D600474682 /* Assets.xcassets */,
 				1E54D30524B76B7800DD7EC0 /* Info.plist */,
 			);
@@ -165,7 +181,10 @@
 		1E71309A24B7722200474682 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1E54D30224B76B7800DD7EC0 /* LaunchScreen.storyboard */,
 				1E54D2FA24B76B7600DD7EC0 /* Main.storyboard */,
+				1EC8667024B8A364006272ED /* Login.storyboard */,
+				1EC8667224B8A3A4006272ED /* ChatroomsList.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,14 +197,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		1E71309C24B7725B00474682 /* ViewControllers */ = {
+		1E71309C24B7725B00474682 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1E54D2F424B76B7600DD7EC0 /* AppDelegate.swift */,
-				1E54D2F624B76B7600DD7EC0 /* SceneDelegate.swift */,
 				1E54D2F824B76B7600DD7EC0 /* ViewController.swift */,
+				1EC8666C24B8A301006272ED /* Login.swift */,
+				1EC8666E24B8A324006272ED /* ChatroomsList.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		1E71309D24B772B400474682 /* Extensions */ = {
@@ -193,6 +212,17 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EDF23BB24B78A5F00E86896 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1E54D2F424B76B7600DD7EC0 /* AppDelegate.swift */,
+				1E54D2F624B76B7600DD7EC0 /* SceneDelegate.swift */,
+				1EDF23C024B78B7500E86896 /* Coordinator.swift */,
+				1EDF23C424B7916F00E86896 /* LaunchCoordinator.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		D8B5F4583018D59D54B80E9B /* Frameworks */ = {
@@ -309,7 +339,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC8667124B8A364006272ED /* Login.storyboard in Resources */,
 				1E54D30424B76B7800DD7EC0 /* LaunchScreen.storyboard in Resources */,
+				1EC8667324B8A3A4006272ED /* ChatroomsList.storyboard in Resources */,
 				1E71309F24B775D600474682 /* Assets.xcassets in Resources */,
 				1E54D2FC24B76B7600DD7EC0 /* Main.storyboard in Resources */,
 			);
@@ -378,7 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC8666D24B8A301006272ED /* Login.swift in Sources */,
 				1E54D2FF24B76B7600DD7EC0 /* Disputea.xcdatamodeld in Sources */,
+				1EC8666F24B8A324006272ED /* ChatroomsList.swift in Sources */,
+				1EDF23C524B7916F00E86896 /* LaunchCoordinator.swift in Sources */,
+				1EDF23C124B78B7500E86896 /* Coordinator.swift in Sources */,
 				1E54D2F924B76B7600DD7EC0 /* ViewController.swift in Sources */,
 				1E54D2F524B76B7600DD7EC0 /* AppDelegate.swift in Sources */,
 				1E54D2F724B76B7600DD7EC0 /* SceneDelegate.swift in Sources */,
@@ -390,6 +426,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E54D33024B76D1D00DD7EC0 /* iOS_App_UITests.swift in Sources */,
+				1EDF23C624B7916F00E86896 /* LaunchCoordinator.swift in Sources */,
+				1EDF23C224B78B7500E86896 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +436,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E54D33E24B76D6800DD7EC0 /* iOS_App_UnitTests.swift in Sources */,
+				1EDF23C724B7916F00E86896 /* LaunchCoordinator.swift in Sources */,
+				1EDF23C324B78B7500E86896 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
